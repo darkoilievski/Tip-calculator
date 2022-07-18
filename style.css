@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  /*  */
+  background-color: hsl(185, 41%, 84%);
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 80px;
+  color: hsl(186, 14%, 43%);
+  letter-spacing: 10px;
+}
+.main {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* height: 40%; */
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.section-one,
+.section-two {
+  padding: 40px 40px;
+}
+
+.green-color {
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+.amount,
+.tip-per-person {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.bill,
+.percentage {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: hsl(186, 14%, 43%);
+}
+
+.bill-value {
+  width: 100%;
+  height: 13%;
+  border: 0px;
+  background-color: hsl(185, 41%, 84%);
+  border-radius: 5px;
+  text-align: end;
+  font-size: 22px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.tip-percentage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.btn {
+  height: 45px;
+  border: 0px;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(189, 41%, 97%);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:last-child {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(186, 14%, 43%);
+}
+.btn:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+}
+.btn:last-child:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+}
+
+.number-of-people {
+  margin-top: 40px;
+  font-weight: 700;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 8px;
+}
+
+.nmbr-people {
+  width: 100%;
+  height: 13%;
+  border: 0px;
+  background-color: hsl(185, 41%, 84%);
+  border-radius: 5px;
+  text-align: end;
+  font-size: 22px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  line-height: 30px;
+}
+
+.color-change {
+  color: hsl(186, 14%, 43%);
+  font-size: 16px;
+}
+
+.tip-value,
+.tip-per-person {
+  font-size: 45px;
+  font-weight: 700;
+  color: hsl(172, 67%, 45%);
+}
+
+.reset {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  background-color: hsl(185, 41%, 84%);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(186, 14%, 43%);
+  margin-top: 40px;
+  cursor: pointer;
+}
