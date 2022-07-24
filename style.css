@@ -15,7 +15,7 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 8%;
+  margin-top: 3rem;
   margin-bottom: 80px;
   color: hsl(186, 14%, 43%);
   letter-spacing: 10px;
@@ -63,7 +63,6 @@ h1 {
   border-radius: 5px;
   text-align: end;
   font-size: 22px;
-  margin-bottom: 40px;
   cursor: pointer;
   padding-right: 5px;
 }
@@ -101,6 +100,18 @@ h1 {
   font-weight: 700;
 }
 
+.btn:visited {
+  background-color: hsl(185, 41%, 84%);
+  font-weight: 700;
+}
+
+.custom {
+  width: 100%;
+  text-align: center;
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(186, 14%, 43%);
+}
+
 .number-of-people {
   margin-top: 40px;
   font-weight: 700;
@@ -116,7 +127,6 @@ h1 {
   border-radius: 5px;
   text-align: end;
   font-size: 22px;
-  margin-bottom: 40px;
   cursor: pointer;
   padding-right: 5px;
 }
@@ -152,4 +162,16 @@ h1 {
   color: hsl(186, 14%, 43%);
   margin-top: 40px;
   cursor: pointer;
+}
+
+.bill-text,
+.people-text {
+  color: red;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
 }

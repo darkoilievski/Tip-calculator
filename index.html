@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -22,18 +21,21 @@
     <main class="main">
       <section class="section-one">
         <p class="bill">Bill</p>
-        <input type="number" placeholder="0" class="bill-value" required />
+        <input type="text" placeholder="0" class="bill-value" required />
+        <div class="bill-text"></div>
         <p class="percentage">Select Tip %</p>
         <div class="tip-percentage">
-          <button class="btn one">5%</button>
-          <button class="btn two">10%</button>
-          <button class="btn three">15%</button>
-          <button class="btn four">25%</button>
-          <button class="btn five">50%</button>
-          <button class="btn custom">CUSTOM</button>
+          <button class="btn one" value="5">5%</button>
+          <button class="btn two" value="10">10%</button>
+          <button class="btn three" value="15">15%</button>
+          <button class="btn four" value="25">25%</button>
+          <button class="btn five" value="50">50%</button>
+          <input type="text" placeholder="CUSTOM" class="btn custom" />
+          <!-- <button class="btn custom">CUSTOM</button> -->
         </div>
         <p class="number-of-people">Number of People</p>
-        <input type="number" placeholder="0" class="nmbr-people" />
+        <input type="text" placeholder="0" class="nmbr-people" />
+        <div class="people-text"></div>
       </section>
       <section class="section-two">
         <div class="green-color">
@@ -53,12 +55,12 @@
         </div>
       </section>
     </main>
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Darko Ilievski</a>.
-    </div>
+    </footer>
   </body>
 </html>
 <!-- Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
